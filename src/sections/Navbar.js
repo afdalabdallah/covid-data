@@ -7,10 +7,8 @@ import "@fontsource/montserrat";
 import NavMenu from '../components/NavMenu';
 
 function Navbar() {
-    
-
     return (
-        <Box height="109" bgColor="#FFFFFF" className="navbar" paddingLeft="53px" paddingTop="16px" paddingRight="53px" position={'sticky'}>
+        <Box height="109" bgColor="#FFFFFF" className="navbar" paddingLeft="53px" paddingTop="16px" paddingRight="53px" position={'sticky'} zIndex={2}>
             <HStack justify={'space-between'} width={'100%'}>
                 <StackItem>
                     <HStack spacing="18px">

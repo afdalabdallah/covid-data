@@ -68,6 +68,7 @@ function LineGraph({ casesType, deathCases, recCases }) {
         <div>
             {posData?.length > 0 && (
             <Line
+          
             height={'100px'}
             options={options}
             data={{

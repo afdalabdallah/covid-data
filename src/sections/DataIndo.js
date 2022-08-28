@@ -19,7 +19,7 @@ function DataIndo() {
         fetchData();
     }, []);
     return (
-        <Box height="556px" bgColor="#FFD6C3" marginBottom={180}>
+        <Box height="556px" bgColor="#FFD6C3" marginBottom={180} id="data_indo">
             <Grid
             templateColumns="repeat(3, 527px)"
             templateRows="repeat(5, 111px)"

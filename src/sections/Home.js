@@ -7,9 +7,8 @@ import LineGraph from '../components/LineGraph'
 function Home() {
     return (
        <Box height={720} id="home" w="100%" bgColor="#FFFFFF">
-           <HomeText/>
-           
-           
+            <HomeText/>
+            <IndonesiaMap />
        </Box>
     )
 }
